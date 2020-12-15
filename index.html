@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendario 2020</title>
+    <script src="./js/calendario.js" async></script>
+    <script src="./js/animal.js" async></script>
+    <link rel="stylesheet" href="calendario.css" />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>El calendario de Vivi 🐱‍🏍</h1>
+
+      <section>
+        <span id="prevMonth"><i class="fas fa-chevron-circle-left"></i></span>
+        <h2 id="month"></h2>
+        <h2 id="year"></h2>
+        <span id="nextMonth"><i class="fas fa-chevron-circle-right"></i></span>
+      </section>
+
+      <table>
+        <thead class="daysMonth">
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miércoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+          <th>Sábado</th>
+          <th>Domingo</th>
+        </thead>
+        <tbody class="calendarDate" id="dates"></tbody>
+      </table>
+
+      <div>
+          <img src="#" alt="gif" id="gif" hidden>
+          <h4 id="cucu" hidden>¿En qué día estamos?</h4>
+    </div>
+    </main>
+  </body>
+</html>
