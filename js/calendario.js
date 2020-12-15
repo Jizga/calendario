@@ -212,6 +212,7 @@ function selectNewDate() {
   dates.innerHTML = '<tbody class="calendarDate" id="dates"></tbody>';
   writeMonth(numberMonth);
   gifAppears();
+  checkHide();
 }
 
 init();
