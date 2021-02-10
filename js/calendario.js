@@ -13,6 +13,7 @@ let months = [
   "Diciembre",
 ];
 
+
 let currentDate = new Date(); //Fecha actual del pc
 
 let currentDay = currentDate.getDate();
